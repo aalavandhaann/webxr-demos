@@ -1,0 +1,40 @@
+{
+  "name": "xr-01",
+  "version": "0.0.1",
+  "description": "XR/VR demo using threejs",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "parcel src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalavandhaann/webxr-demos.git"
+  },
+  "keywords": [
+    "xr",
+    "webxr",
+    "vr",
+    "ar",
+    "threejs",
+    "webgl",
+    "gl",
+    "opengl",
+    "glsl"
+  ],
+  "author": "#0K Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalavandhaann/webxr-demos/issues"
+  },
+  "homepage": "https://github.com/aalavandhaann/webxr-demos#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "parcel": "^2.1.1",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "jsm": "^0.0.1",
+    "three": "^0.136.0"
+  }
+}
