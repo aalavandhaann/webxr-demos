@@ -2,9 +2,10 @@
   "name": "xr-01",
   "version": "0.0.1",
   "description": "XR/VR demo using threejs",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "scripts": {
-    "dev": "parcel src/index.html --open"
+    "dev-xr-01": "parcel src/index.html --no-cache --open ",
+    "git-xr-01": "parcel build src/index.html -d git-build --no-minify --public-url https://aalavandhaann.github.io/webxr-demos/threejs/XR-01/git-build/  --no-cache --no-content-hash"
   },
   "repository": {
     "type": "git",
