@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "jsm": "^0.0.1",
+    "scripts": "^0.1.0",
     "three": "^0.136.0"
   }
 }
